@@ -185,12 +185,13 @@ ul#nav li.active a { color: #11ABB0; }
 
 #intro {
    background: #111 url(../images/intro-bg.jpg) no-repeat center;
-   overflow: hidden;
+   background-size: 100% auto;
+   height:740px;
 }
 
 /* FlexSlider Intro Slider Styles */
 .slides {
-   max-height: 660px;
+   max-height: 740px;
    overflow: hidden;
 }
 .slider-text {
@@ -265,23 +266,23 @@ ul#nav li.active a { color: #11ABB0; }
 
 /* ================================================================== */
 
-/* d. Services
+/* d. About me
 
 /* ================================================================== */
 
-#services {
+#aboutme {
    background: #1b1e21 url(../images/patterns/servicesbg.png);
    padding-top: 156px;
    padding-bottom: 120px;
    color: #4E565F;
 }
 
-#services a, #services a:visited  { color: #C4C4C4; }
-#services a:hover, #services a:focus { color: #11ABB0; }
+#aboutme a, #aboutme a:visited  { color: #C4C4C4; }
+#aboutme a:hover, #aboutme a:focus { color: #11ABB0; }
 
-#services .section-head h2 { color: #11ABB0; }
-#services .section-head p.desc,
-#services .section-head .intro { color: #57606B; }
+#aboutme .section-head h2 { color: #11ABB0; }
+#aboutme .section-head p.desc,
+#aboutme .section-head .intro { color: #57606B; }
 
 .services-wrapper { margin-top: 42px; }
 .services-wrapper .col {
@@ -299,32 +300,32 @@ ul#nav li.active a { color: #11ABB0; }
    font-size: 16px;
    line-height: 30px;
 }
-#services .services-wrapper i { margin-right: 10px; }
+#aboutme .services-wrapper i { margin-right: 10px; }
 
 
 /* ================================================================== */
 
-/* e. Portfolio
+/* e. Speaking
 
 /* ================================================================== */
 
-#portfolio {
+#speaking {
    background: #f5f5f5 url(../images/patterns/grey.png);
    padding-top: 156px;
    padding-bottom: 120px;
 }
-#portfolio .section-head h2 { color: #0f9095; }
-#portfolio .section-head p.desc { color: #999999; }
-#portfolio .section-head .intro { color: #A3A3A3; }
+#speaking .section-head h2 { color: #0f9095; }
+#speaking .section-head p.desc { color: #999999; }
+#speaking .section-head .intro { color: #A3A3A3; }
 
-/* Portfolio Content */
-#portfolio-wrapper { margin-top: 36px; }
-#portfolio-wrapper .col {
+/* Speaking Content */
+#speaking-wrapper { margin-top: 36px; }
+#speaking-wrapper .col {
    width: 25%;
    margin-bottom: 36px;
 }
 
-.portfolio-item .item-wrap {
+.speaking-item .item-wrap {
    background: #fff;
    overflow: hidden;
 
@@ -338,17 +339,17 @@ ul#nav li.active a { color: #11ABB0; }
 	-ms-transition: all 0.3s ease-in-out;
 	transition: all 0.3s ease-in-out;
 }
-.portfolio-item .item-wrap a { display: block; }
-.portfolio-item .portfolio-item-meta { padding: 12px 0; }
-.portfolio-item .portfolio-item-meta h5 a {
+.speaking-item .item-wrap a { display: block; }
+.speaking-item .speaking-item-meta { padding: 12px 0; }
+.speaking-item .speaking-item-meta h5 a {
    font: 13px/24px montserrat-bold, sans-serif;
    color: #0f9095;
    margin-left: 7%;
 }
 
 /* on hover */
-.portfolio-item:hover .item-wrap { background-color: #0f9095; }
-.portfolio-item:hover h5 a { color: #fff !important; }
+.speaking-item:hover .item-wrap { background-color: #0f9095; }
+.speaking-item:hover h5 a { color: #fff !important; }
 
 
 /* Reveal Modal Plugin Styles
@@ -380,6 +381,7 @@ ul#nav li.active a { color: #11ABB0; }
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
 	-box-shadow: 0 0 10px rgba(0,0,0,.4);
 }
+.reveal-modal-small { width: 300px; max-width: 300px; margin-left: -150px;}
 .reveal-modal .description-box { padding: 18px 36px; }
 .reveal-modal .description-box h4 {
    font: 15px/24px montserrat-bold, sans-serif;
@@ -444,6 +446,7 @@ ul#nav li.active a { color: #11ABB0; }
 #journal .blog-entries .entry-header {
    position: relative;
    margin-bottom: 6px;
+   border-bottom: 1px solid;
 }
 #journal .entry-header .entry-title { padding-left: 38px; }
 #journal .entry-header h3 { font: 30px/42px montserrat-regular, sans-serif; }
@@ -597,10 +600,10 @@ ul#nav li.active a { color: #11ABB0; }
 /* ================================================================== */
 
 #call-to-action {
-   background-color: #0f9095;
+   background: #fff url(../images/patterns/grey.png);
    padding-top: 60px;
    padding-bottom: 72px;
-   color: #7fe6ed;
+   color: #A3A3A3;
 }
 #call-to-action .action { margin-top: 12px; }
 #call-to-action h2 {
@@ -1203,7 +1206,7 @@ footer .social-links li:first-child { margin-left: 0; }
 @media only screen and (max-width: 836px) {
 
    /* adjust sections padding top */
-   #services, #portfolio,
+   #services, #speaking,
    #journal, #about { padding-top: 120px; }
 
    /* adjust font size */
@@ -1220,10 +1223,10 @@ footer .social-links li:first-child { margin-left: 0; }
    #services .services-wrapper .col { width: 50%; }
    #services .services-wrapper .col { margin-bottom: 0; }
 
-   /* portfolio section
+   /* speaking section
    -------------------------------------------------------------------- */
-   #portfolio #portfolio-wrapper { margin-top: 12px; }
-   #portfolio #portfolio-wrapper .col { width: 33.33333%; }
+   #speaking #speaking-wrapper { margin-top: 12px; }
+   #speaking #speaking-wrapper .col { width: 33.33333%; }
 
    /* journal section
    -------------------------------------------------------------------- */
@@ -1375,7 +1378,7 @@ footer .social-links li:first-child { margin-left: 0; }
       min-height: 300px;
    }
 
-   /* portfolio section
+   /* speaking section
    --------------------------------------------------------------------- */
     .reveal-modal {
    	margin-left: -42%;
@@ -1604,6 +1607,3 @@ footer .social-links li:first-child { margin-left: 0; }
    }
 
 }
-
-
-
