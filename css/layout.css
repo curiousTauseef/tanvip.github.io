@@ -274,7 +274,6 @@ ul#nav li.active a { color: #11ABB0; }
    background: #1b1e21 url(../images/patterns/servicesbg.png);
    padding-top: 156px;
    padding-bottom: 120px;
-   color: #4E565F;
 }
 
 #aboutme a, #aboutme a:visited  { color: #C4C4C4; }
@@ -282,7 +281,7 @@ ul#nav li.active a { color: #11ABB0; }
 
 #aboutme .section-head h2 { color: #11ABB0; }
 #aboutme .section-head p.desc,
-#aboutme .section-head .intro { color: #57606B; }
+#aboutme .section-head .intro { color: #aaaaaa; }
 
 .services-wrapper { margin-top: 42px; }
 .services-wrapper .col {
@@ -341,7 +340,7 @@ ul#nav li.active a { color: #11ABB0; }
 }
 .speaking-item .item-wrap a { display: block; }
 .speaking-item .speaking-item-meta { padding: 12px 0; }
-.speaking-item .speaking-item-meta h5 a {
+.speaking-item .speaking-item-meta h5 {
    font: 13px/24px montserrat-bold, sans-serif;
    color: #0f9095;
    margin-left: 7%;
@@ -349,7 +348,7 @@ ul#nav li.active a { color: #11ABB0; }
 
 /* on hover */
 .speaking-item:hover .item-wrap { background-color: #0f9095; }
-.speaking-item:hover h5 a { color: #fff !important; }
+.speaking-item:hover h5 { color: #fff !important; }
 
 
 /* Reveal Modal Plugin Styles
@@ -381,7 +380,6 @@ ul#nav li.active a { color: #11ABB0; }
 	-webkit-box-shadow: 0 0 10px rgba(0,0,0,.4);
 	-box-shadow: 0 0 10px rgba(0,0,0,.4);
 }
-.reveal-modal-small { width: 300px; max-width: 300px; margin-left: -150px;}
 .reveal-modal .description-box { padding: 18px 36px; }
 .reveal-modal .description-box h4 {
    font: 15px/24px montserrat-bold, sans-serif;
@@ -657,7 +655,7 @@ ul#nav li.active a { color: #11ABB0; }
    background-color: #25292D;
    padding-top: 108px;
    padding-bottom: 120px;
-   color: #707B89;
+   font-size: 22px;
 }
 
 #contact a, #contact a:visited  { color: #C4C4C4; }
@@ -666,7 +664,7 @@ ul#nav li.active a { color: #11ABB0; }
 #contact .section-head { margin-bottom: 42px; }
 #contact .section-head h2 { color: #11ABB0; }
 #contact .section-head p.desc,
-#contact .intro { color: #57606B; }
+#contact .intro { color: #aaaaaa; }
 #contact p {  }
 
 /* contact form */
