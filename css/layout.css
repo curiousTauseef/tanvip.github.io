@@ -186,7 +186,6 @@ ul#nav li.active a { color: #11ABB0; }
 #intro {
    background: #111 url(../images/intro-bg.jpg) no-repeat center;
    background-size: 100% auto;
-   height:740px;
 }
 
 /* FlexSlider Intro Slider Styles */
@@ -276,7 +275,6 @@ ul#nav li.active a { color: #11ABB0; }
    padding-bottom: 120px;
 }
 
-#aboutme a, #aboutme a:visited  { color: #C4C4C4; }
 #aboutme a:hover, #aboutme a:focus { color: #11ABB0; }
 
 #aboutme .section-head h2 { color: #11ABB0; }
@@ -1374,6 +1372,9 @@ footer .social-links li:first-child { margin-left: 0; }
    .slides {
       overflow: hidden;
       min-height: 300px;
+   }
+   #intro {
+       height: auto;
    }
 
    /* speaking section
